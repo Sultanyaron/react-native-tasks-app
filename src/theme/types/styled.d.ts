@@ -3,6 +3,7 @@ import 'styled-components';
 export interface IColors {
 	mainBackgroundColor: string;
 	white: string;
+	blue: string;
 }
 
 export interface IFontSizes {

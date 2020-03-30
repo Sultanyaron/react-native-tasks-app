@@ -4,7 +4,8 @@ const colors = {
 	mainBackgroundColor: '#DDFD43',
 	white: '#FFFF',
 	gray1: '#8E8E8E',
-	darkGray: '#4E4E4E'
+	darkGray: '#4E4E4E',
+	blue: '#3895D3',
 };
 
 const defaultTheme: DefaultTheme = {
@@ -13,18 +14,18 @@ const defaultTheme: DefaultTheme = {
 		button: {
 			dark: {
 				textColor: colors.white,
-				backgroundColor: colors.darkGray
+				backgroundColor: colors.darkGray,
 			},
 			light: {
 				textColor: colors.darkGray,
-				backgroundColor: colors.white
-			}
-		}
+				backgroundColor: colors.white,
+			},
+		},
 	},
 	fontSizes: {
-		s11: 11
+		s11: 11,
 	},
-	gradients: {}
+	gradients: {},
 };
 
 export default defaultTheme;
